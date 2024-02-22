@@ -30,7 +30,7 @@ This basic version serves as a foundation for further development. You can custo
 - Improving interactivity: Add JavaScript for dynamic elements, animations, and user interactions.
 
 ## Credits:
-This project was created by Anubhav Kumar Gupta. It is for educational purposes and to practice HTML and CSS skills.
+This project is created by Anubhav Kumar Gupta. It is for educational purposes and to practice HTML and CSS skills.
 
 ## How to Contribute:
 If you'd like to contribute to this project, feel free to fork the repository, make changes, and submit pull requests.
