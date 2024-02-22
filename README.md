@@ -15,7 +15,7 @@
 ## Requirements:
 
 - A text editor or code editor of your choice (e.g., Visual Studio Code, Sublime Text, Atom)
-- A web browser (e.g., Chrome, Firefox, Safari)
+- A web browser (e.g., Chrome, Edge, Firefox, Safari)
 
 ## Usage:
 - To view the project, simply open the `index.html` file in your web browser. 
@@ -35,13 +35,8 @@ This project was created by Anubhav Kumar Gupta. It is for educational purposes 
 ## How to Contribute:
 If you'd like to contribute to this project, feel free to fork the repository, make changes, and submit pull requests.
 
-
-
 ## Note:
 
 This clone is intended for educational purposes and personal experimentation. It does not replicate the full functionality of the original Dribbble website.
 
 
-##
-
-Feel free to customize this README to include any additional information about your project or your development process!
