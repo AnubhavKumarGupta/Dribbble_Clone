@@ -6,6 +6,9 @@
 - This project is a clone of the Dribbble website created using HTML and CSS. Dribbble is a platform where designers, artists, and creatives showcase their work.
 - By creating this clone, you can learn how to structure a website layout and style it to resemble the Dribbble interface.
 
+![DribbleClone](https://github.com/username/repositoryname/raw/main/2024-04-2113-25-14-ezgif.com-video-to-gif-converter.gif)
+
+
 
 ## Features:
 - Landing Page: Mimics the Dribbble landing page layout with sections for featured shots, categories, and a call to action.
