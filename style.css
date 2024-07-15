@@ -3,13 +3,22 @@
   font-family: heading;
   src: url(./font.ttf);
 }
+
+
+/* uper me jo font diya hai usko nikalne ke liye inspect me jana hai -> phir network me jana -> phir font ka option dikhega usko niche click kr ke download kr lena hai uske baad, jo download hua hai wo WOFF2 format me download hua hai to wo apna computer support nhi karta hai iske liye humlogo ko ttf converter ka use kr ke ttf format me lana hoga. */
+
+
+/* Ye vi boiler Plate code hai */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* Global Styles */
+/* Global Styles */ 
+
+/*  ye sub to boiler plate code hai, ye to humesa likhna to prega hi */
 body,html {
   font-family: 'Arial', sans-serif;
   height : 100%;
@@ -25,11 +34,14 @@ main{
   width: 100%;
 
 }
+
 /* .....HeroContainer .....  */
 .heroContainer{
   width: 100%;
   height: 100vh;
 }
+
+
 /* ......navbar ......  */
 .heroContainer nav{
   display: flex;
@@ -39,51 +51,72 @@ main{
   height: 16.8vh;
   padding: 0 3.4vw;
 }
+
 .heroContainer nav .links a{
   color: black;
   text-decoration: none;
   font-weight: 600;
   font-size: 1.1vw;
 }
+
 .links{
-  /* width: 35%; */
+  /* width: 35%; */ 
+  /* dribbble likha hua hai usko centre me lane ke liye kiya gya hai. */
+
   display: flex;
   gap: 2.5vw; 
   align-items: center;
   justify-content: center;
 
 }
+
 .signUps{
   display: flex;
   align-items: center;
   gap: 2vw;
 }
+
 .links img{
   /* width: 7vw; */
   height: 4vw;
   margin-top: -10px;
 }
+
 #Login{
   border: none;
   outline: none;
   font-weight: 600;
+
+  /* Niche diye agye sare properties ko agar uncomments kr denge to login ka background black ho jaega */
+
+  /* border-radius: 2vw; */
+  /* color: white; */
+  /* padding: 1vw 1.7vw; */
+  /* background-color: black; */
 }
+
+/* Ye Sign In id Get stated wala jo bich me hai uske liye banaya gya hai. */
+
 #signIn{
   background-color: #0D0C22;
   color: white;
   font-size: 1.1vw;
   font-weight: 600;
-  padding: 1.3vw 2vw;
+  padding: 1.1vw 1.7vw;
   outline: none;
   border: none;
   border-radius: 2vw;
 }
+
+
 .signUps input{
   padding: 1.3vw 2vw;
   border-radius: 2vw;
   border: none;
   background-color: #FFFFFF;
 }
+
+
 .links i{
   display: none;
 }
@@ -92,6 +125,11 @@ main{
 .hero{
   width: 100%;
   height: calc(100% - 16.8vh);
+
+  /* yha total width ke liye total page ka percentage me se jitna use hua pixel ko minus kr diya.  */
+  
+  /* calc ka yhi fayada hai  ki perfect calculation kr sakte hai */
+
   /* background-color: cadetblue; */
   display: flex;
   flex-direction: column;
@@ -101,6 +139,9 @@ main{
   gap: 3vw;
   padding: 3vw 0 0 0;
 }
+
+/* BICH ME JO LIKHA HUA HAI USKE LIYE HAI YE i.e; over 3 millions wala */
+
 .hero h2{
   background-color: #FFDA7A;
   padding: 0.7vw 1.6vw;
@@ -120,6 +161,7 @@ main{
 }
 
 /* ......Scroller ...... */
+
 .scrollerContainer{
   display: flex;
   overflow-x:hidden ;
