@@ -14,6 +14,7 @@
         font-size: 2vw;
     }
 }
+
 @media (max-width : 809px) {
     section .box{
         width: 43%;
@@ -51,6 +52,7 @@
         font-size: 3vw;
     }
 }
+
 @media (max-width:600px) {
     .heroContainer nav{
         height: 13vh;
@@ -156,6 +158,7 @@
     }
    
 }
+
 @media (max-width : 400px) {
     .hero h2{
         font-size: 4vw;
